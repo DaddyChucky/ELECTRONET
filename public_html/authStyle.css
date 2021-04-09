@@ -1,0 +1,128 @@
+span p 
+{
+    font-family: 'Blinker', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 2%;
+    text-decoration: underline;
+}
+
+#mainTitle 
+{
+    font-family: 'Blinker', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 42px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+form
+{
+    font-family: 'Blinker', sans-serif;
+    text-align: center;
+    margin-right: 30%;
+    margin-left: 30%;
+    font-size: 12px;
+}
+
+input[type=text], select
+{
+    width: 50%;
+    padding: 12px 20px;
+    margin-right: 8px;
+    display: inline-block;
+    color: darkgoldenrod;
+    border: 1px solid #45a049;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+input[type=text]:hover, select:hover
+{
+    color: darkgoldenrod;
+    border: 1px solid goldenrod;
+    transition: 0.5s ease-in-out;
+}
+
+input[type=password], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin-right: 8px;
+    margin-bottom: 4px;
+    display: inline-block;
+    color: darkgoldenrod;
+    border: 1px solid #45a049;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+    input[type=password]:hover, select:hover {
+        color: darkgoldenrod;
+        border: 1px solid goldenrod;
+        transition: 0.5s ease-in-out;
+    }
+
+input[type=submit]
+{
+    width: 25%;
+    background-color: goldenrod;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover
+{
+    background-color: darkgoldenrod;
+    transition: 0.5s ease-in-out;
+}
+
+#disclaimer 
+{
+    font-family: 'Blinker', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 1%;
+    text-decoration: none;
+}
+#disclaimer span
+{
+    font-size: 18px;
+    color: darkred;
+}
+
+h2
+{
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border: 2px groove red;
+    border-radius: 8px;
+    margin: 2% 20% 2% 20%;
+}
+
+    h2:hover
+    {
+        background: #FFEEEE;
+        transition: ease-in-out 0.5s;
+    }
+
+h2 span
+{
+    font-family: 'Blinker', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: red;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+i
+{
+    color: darkred;
+}

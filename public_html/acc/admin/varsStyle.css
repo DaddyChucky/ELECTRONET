@@ -1,0 +1,296 @@
+*
+{
+    font-family: 'Blinker', sans-serif;
+}
+
+form
+{
+    font-family: 'Blinker', sans-serif;
+    text-align: center;
+    margin-right: 30%;
+    margin-left: 30%;
+    font-size: 12px;
+}
+
+input[type=submit] 
+{
+    width: 50%;
+    background-color: dodgerblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover 
+{
+    background-color: darkblue;
+    transition: 0.5s ease-in-out;
+}
+
+h2
+{
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border: 2px groove red;
+    background: white;
+    border-radius: 8px;
+    margin: 2% 20% 5% 20%;
+}
+
+    h2:hover
+    {
+        background: #FFEEEE;
+        transition: ease-in-out 0.5s;
+    }
+
+h2 span
+{
+    font-family: 'Blinker', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: red;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+form
+{
+    font-family: 'Blinker', sans-serif;
+    text-align: center;
+    margin-right: 30%;
+    margin-left: 30%;
+    font-size: 12px;
+}
+
+input[type=text], select
+{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid darkorange;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+input[type=text]:hover, select:hover
+{
+    color: orangered;
+    border: 1px solid orangered;
+    transition: 0.5s ease-in-out;
+}
+
+input[type=submit] 
+{
+    width: 50%;
+    background-color: darkorange;
+    color: white;
+    padding: 14px 20px;
+    margin: 2%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover 
+{
+    background-color: orangered;
+    transition: 0.5s ease-in-out;
+}
+
+.avatar {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50%;
+}
+
+    .avatar img {
+        width: 125px;
+        height: 125px;
+        border-radius: 50%;
+    }
+
+.logo {
+    text-align: left;
+    margin: auto auto auto 10%;
+}
+
+    .logo a img {
+        width: 125px;
+        height: 75px;
+    }
+
+.header {
+    background: floralwhite;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+footer {
+    background: floralwhite;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.footContent {
+    font-family: 'Blinker', sans-serif;
+    font-size: 12px;
+    text-align: justify;
+    margin-left: 8%;
+    margin-right: 8%;
+    color: darkslategray;
+    cursor: default;
+}
+
+.copyright {
+    font-family: 'Blinker', sans-serif;
+    font-size: 13px;
+    text-align: right;
+    margin-right: 8%;
+    cursor: default;
+    color: black;
+}
+
+.cred {
+    font-size: 14px;
+    margin-right: 5%;
+    margin-left: 50%;
+}
+
+    .cred a img {
+        width: 50px;
+        height: 50px;
+        border: 2px solid deepskyblue;
+    }
+
+        .cred a img:hover {
+            border: 2px solid midnightblue;
+            transition: ease-in-out 0.5s;
+        }
+
+    .cred a {
+        color: midnightblue;
+        margin-right: 1%;
+    }
+
+        .cred a:hover {
+            text-decoration: none;
+            color: deepskyblue;
+            transition: ease-in-out 0.5s;
+        }
+
+.mainLinks {
+    padding-top: 3%;
+    padding-bottom: 3.5%;
+    font-family: 'Blinker', sans-serif;
+    font-size: 20px;
+    background: dodgerblue;
+    color: blue
+}
+
+    .mainLinks p {
+        color: lightyellow;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+        .mainLinks p a {
+            color: white;
+            margin-right: 1%;
+            margin-left: 1%;
+            padding-top: 0.2%;
+            padding-bottom: 0.2%;
+        }
+
+            .mainLinks p a:hover {
+                text-decoration: none;
+                border-bottom: 2px groove lightyellow;
+                border-radius: 15%;
+                transition: ease-in-out 0.5s;
+            }
+
+#current {
+    color: lightyellow;
+    border-top: 4px groove lightyellow;
+    border-bottom: none;
+    border-radius: 15%;
+    cursor: text;
+}
+
+.content {
+    background: url(https://i.pinimg.com/originals/f8/99/3f/f8993fba5f672e7747c221ab4b474c9e.jpg), no-repeat;
+    background-size: cover;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+    .content .wrapper {
+        margin: 0 3% 0 3%;
+        border: 4px solid white;
+        background: floralwhite;
+    }
+
+.mainTitle {
+    text-align: center;
+    font-family: 'Blinker', sans-serif;
+    text-decoration: underline;
+    font-size: 34px;
+    margin-bottom: 1%;
+}
+
+.sentences {
+    text-align: center;
+    margin-left: 6%;
+    margin-right: 6%;
+    font-size: 18px;
+    color: black;
+}
+
+
+div {
+    font-family: 'Blinker', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 2%;
+    margin-top: -2%;
+}
+
+.functionalities {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 7%;
+}
+
+    .functionalities tr td {
+        text-align: left;
+        padding: 4px;
+    }
+
+    .functionalities a {
+        color: midnightblue;
+    }
+
+        .functionalities a:hover {
+            color: deepskyblue;
+            transition: 0.5s ease-in-out;
+        }
+
+    .functionalities i {
+        color: black;
+    }
+
+.variables p
+{
+    margin-top: 5%;
+    font-size: 16px;
+}

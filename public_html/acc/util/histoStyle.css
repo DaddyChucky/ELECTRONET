@@ -1,0 +1,213 @@
+.avatar {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50%;
+}
+
+    .avatar img {
+        width: 125px;
+        height: 125px;
+        border-radius: 50%;
+    }
+
+.logo {
+    text-align: left;
+    margin: auto auto auto 10%;
+}
+
+    .logo a img {
+        width: 125px;
+        height: 75px;
+    }
+
+.header {
+    background: floralwhite;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+footer {
+    background: floralwhite;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.footContent {
+    font-family: 'Blinker', sans-serif;
+    font-size: 12px;
+    text-align: justify;
+    margin-left: 8%;
+    margin-right: 8%;
+    color: darkslategray;
+    cursor: default;
+}
+
+.copyright {
+    font-family: 'Blinker', sans-serif;
+    font-size: 13px;
+    text-align: right;
+    margin-right: 8%;
+    cursor: default;
+    color: black;
+}
+
+.cred {
+    font-size: 14px;
+    margin-right: 5%;
+    margin-left: 50%;
+}
+
+    .cred a img {
+        width: 50px;
+        height: 50px;
+        border: 2px solid deepskyblue;
+    }
+
+        .cred a img:hover {
+            border: 2px solid midnightblue;
+            transition: ease-in-out 0.5s;
+        }
+
+    .cred a {
+        color: midnightblue;
+        margin-right: 1%;
+    }
+
+        .cred a:hover {
+            text-decoration: none;
+            color: deepskyblue;
+            transition: ease-in-out 0.5s;
+        }
+
+.mainLinks {
+    padding-top: 3%;
+    padding-bottom: 3.5%;
+    font-family: 'Blinker', sans-serif;
+    font-size: 20px;
+    background: dodgerblue;
+    color: blue
+}
+
+    .mainLinks p {
+        color: lightyellow;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+        .mainLinks p a {
+            color: white;
+            margin-right: 1%;
+            margin-left: 1%;
+            padding-top: 0.2%;
+            padding-bottom: 0.2%;
+        }
+
+            .mainLinks p a:hover {
+                text-decoration: none;
+                border-bottom: 2px groove lightyellow;
+                border-radius: 15%;
+                transition: ease-in-out 0.5s;
+            }
+
+#current {
+    color: lightyellow;
+    border-top: 4px groove lightyellow;
+    border-bottom: none;
+    border-radius: 15%;
+    cursor: text;
+}
+
+.content {
+    background: url(https://i.pinimg.com/originals/f8/99/3f/f8993fba5f672e7747c221ab4b474c9e.jpg), no-repeat;
+    background-size: cover;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+    .content .wrapper {
+        margin: 0 3% 0 3%;
+        border: 4px solid white;
+        background: floralwhite;
+    }
+
+.mainTitle {
+    text-align: center;
+    font-family: 'Blinker', sans-serif;
+    text-decoration: underline;
+    font-size: 34px;
+    margin-bottom: 4%;
+}
+
+.sentences {
+    text-align: center;
+    margin-left: 6%;
+    margin-right: 6%;
+    font-size: 18px;
+    color: black;
+}
+
+
+div {
+    font-family: 'Blinker', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 2%;
+    margin-top: -2%;
+}
+
+.functionalities {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 4%;
+}
+
+    .functionalities tr td {
+        text-align: left;
+        padding: 4px;
+    }
+
+    .functionalities a {
+        color: midnightblue;
+    }
+
+        .functionalities a:hover {
+            color: deepskyblue;
+            transition: 0.5s ease-in-out;
+        }
+
+    .functionalities i {
+        color: black;
+    }
+
+.tableLine {
+    border-bottom: 2px dashed black;
+}
+
+.columnTitle {
+    font-weight: initial;
+    border: 2px ridge black;
+    text-align: center;
+    font-size: 20px;
+    padding: 8px;
+}
+
+td {
+    text-align: center;
+    font-size: 18px;
+}
+
+table {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 4%;
+    font-family: 'Blinker', sans-serif;
+    width: 70%;
+    border: 5px double black;
+    border-radius: 4px;
+}

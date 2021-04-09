@@ -1,0 +1,392 @@
+
+    #screen-to-small {
+        display: none;
+    }
+
+    * {
+        font-family: 'Blinker', sans-serif;
+        line-height: 1.6;
+    }
+
+    .header {
+        /*background: linear-gradient(to top, dodgerblue, midnightblue, black);*/
+        background: linear-gradient(to top, dodgerblue, floralwhite);
+        padding-top: 2%;
+        padding-bottom: 1%;
+        text-align: center;
+        padding-left: 60%;
+        padding-right: 20%;
+    }
+
+        .header i {
+            font-size: 40px;
+            color: yellow;
+            border-radius: 50%;
+        }
+
+            .header i:hover {
+                transition: 0.5s ease-in-out;
+                color: rgb(243, 45, 84);
+            }
+
+        .header a:hover {
+            text-decoration: none;
+        }
+
+        .header span {
+            color: indianred;
+            font-size: 8px;
+            cursor: default;
+        }
+
+    .topLinks {
+        text-align: center;
+        background: dodgerblue;
+        font-size: 18px;
+    }
+
+        .topLinks a{
+            color: white;
+            margin-right: 1.25%;
+            margin-left: 1.25%;
+        }
+
+            .topLinks a:hover {
+                text-decoration: none;
+                border-bottom: 2px groove lightyellow;
+                border-radius: 15%;
+                transition: ease-in-out 0.5s;
+                color: white;
+            }
+
+        .topLinks .mainLogo {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-top: -1.5%;
+            margin-bottom: -2.5%;
+            cursor: default;
+        }
+
+            .topLinks .mainLogo:hover {
+                animation: logo-rotate 1s;
+            }
+    
+    .background-content {
+        background: linear-gradient(to bottom, dodgerblue, dodgerblue, dodgerblue, floralwhite);
+    }
+
+    footer {
+        padding-top: 10px;
+        background: linear-gradient(to bottom, floralwhite, white);
+    }
+
+    .sepBorder {
+        border: 10px midnightblue groove;
+        /*border-image: url(https://i.pinimg.com/originals/f8/99/3f/f8993fba5f672e7747c221ab4b474c9e.jpg) 30 round;*/
+        margin: -10px 11% 0 11%;
+    }
+
+    .mainContent {
+        margin-top: -20px;
+        animation: fade-in 0.5s;
+        background: floralwhite;
+    }
+
+    .mainContent2 {
+        animation: fade-in 0.5s;
+        background: floralwhite;
+    }
+    
+    #main-images {
+        background-color: floralwhite;
+        background: url(https://www.howtogeek.com/wp-content/uploads/2017/08/cc_7.png) left no-repeat, url(https://www.amenagementpaysager.ca/medias/entreprises/18/herve-buisson-paysagiste-montreal-1513028096.jpg) center no-repeat, url(https://images.squarespace-cdn.com/content/v1/5aab211a506fbea8891a03ff/1522691427137-JJ29RT63T74TTY1WIG0R/ke17ZwdGBToddI8pDm48kFETTUps6waZrWrSwNVwYIxZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIuAl1yHK8sbewbHRm89sZbLkaR8cg1JZI6RLQEtB6qw0KMshLAGzx4R3EDFOm1kBS/lavage_vitres.jpg) right no-repeat;
+        background-size: 32% 51%, 32% 51%, 32% 51%;
+        margin-top: 20px;
+        padding-top: 25%;
+        margin-right: 200px;
+        margin-left: 200px;
+        border-radius: 25px;
+    }
+
+        #main-images:hover {
+            animation: icon-grow 2s;
+        }
+
+    #motto {
+        text-align: center;
+        margin-top: -5%;
+        color: darkslategray;
+        padding-bottom: 2%;
+    }
+
+        #motto:hover {
+            color: black;
+            transition: color 1s;
+        }
+
+    h2 {
+        border-left: 4px solid rgb(251,220,78);
+        color: rgb(243, 45, 84);
+        padding: 8px 0 8px 8px;
+        margin-left: 8%;
+    }
+
+        h2:hover {
+            color: black;
+            border-radius: 15%;
+            border-color: yellow;
+            transition: border-radius 1s, color 1s, border-color 1s;
+        }
+
+    .mainContent div p, .mainContent2 div p {
+        font-size: 18px;
+        text-indent: 32px;
+        margin-right: 12%;
+        margin-left: 12%;
+        text-align: justify;
+    }
+
+    .major-letter {
+        font-size: 40px;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    #button-reserve {
+        text-align: center;
+        padding-top: 2%;
+        padding-bottom: 3%;
+    }
+
+        #button-reserve button {
+            background-color: floralwhite;
+            border: 4px groove rgb(251,220,78);
+            padding: 20px 37px;
+        }
+
+            #button-reserve button:hover {
+                background: white;
+                border: 4px groove rgb(243, 45, 84);
+                border-radius: 25px;
+                transition: background 1s, border 1s, border-radius 1s;
+            }
+
+            #button-reserve button:active {
+                border: 4px groove rgba(243, 45, 84, 0.5);
+                transition: border 0.25s;
+            }
+
+        #button-reserve a {
+            color: black;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+    .services {
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+
+        .services tr th {
+            padding-right: 1%;
+            padding-left: 1%;
+        }
+
+        .services tr th i {
+            font-size: 60px;
+        }
+
+        .services tr th i:hover
+        {
+            animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+            transform: translate3d(0, 0, 0);
+            backface-visibility: hidden;
+            perspective: 1000px;
+        }
+
+        .services tr td {
+            padding-right: 2%;
+            padding-left: 2%;
+        }
+
+    #alt-image-1 {
+        padding: 14% 0 14% 0;
+        margin: 0 8% 0 8%;
+        background: url(https://saurabh-sharma.com/images/owl-cliparts-png-math.png) center no-repeat;
+        background-size: cover;
+    }
+
+    #alt-image-2 {
+        padding: 14% 0 14% 0;
+        margin: 0 15% 0 15%;
+        background: url(https://www.impactqa.com/wp-content/uploads/revslider/home3/partnership-01.png) center no-repeat;
+        background-size: cover;
+    }
+
+    #alt-image-3 {
+        padding: 14% 0 14% 0;
+        margin: 0 15% 0 15%;
+        background: url(https://plotandscatter.com/assets/images/questions.png) center no-repeat;
+        background-size: cover;
+    }
+
+    #changeLang {
+        border: none;
+        background: initial;
+        display: inline;
+        padding: 0;
+        color: indianred;
+    }
+
+        #changeLang:hover {
+            text-decoration: underline;
+            color: darkred;
+            transition: color 0.5s;
+        }
+
+    .footContent, #footContentChangeLang {
+        margin: 0 15% 0 15%;
+        text-align: justify;
+    }
+
+    .footContent a
+    {
+        color: indianred;
+    }
+
+        .footContent a:hover
+        {
+            transition: color 0.5s;
+            color: darkred;
+            text-decoration: underline;
+        }
+
+    .copyright {
+        margin: 0 15% 0 15%;
+        text-align: right;
+    }
+
+    @-webkit-keyframes fade-in {
+        0% {
+            opacity: 0;
+            background: dodgerblue;
+        }
+
+        99% {
+            opacity: 0.99;
+            background: white;
+        }
+
+        100% {
+            opacity: 1;
+            background: floralwhite;
+        }
+    }
+
+    @keyframes fade-in {
+        0% {
+            opacity: 0;
+            background: dodgerblue;
+        }
+
+        99% {
+            opacity: 0.99;
+            background: white;
+        }
+
+        100% {
+            opacity: 1;
+            background: floralwhite;
+        }
+    }
+
+    @keyframes icon-grow {
+        0% {
+             background: url(https://www.howtogeek.com/wp-content/uploads/2017/08/cc_7.png) left no-repeat, url(https://www.amenagementpaysager.ca/medias/entreprises/18/herve-buisson-paysagiste-montreal-1513028096.jpg) center no-repeat, url(https://images.squarespace-cdn.com/content/v1/5aab211a506fbea8891a03ff/1522691427137-JJ29RT63T74TTY1WIG0R/ke17ZwdGBToddI8pDm48kFETTUps6waZrWrSwNVwYIxZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIuAl1yHK8sbewbHRm89sZbLkaR8cg1JZI6RLQEtB6qw0KMshLAGzx4R3EDFOm1kBS/lavage_vitres.jpg) right no-repeat;
+            background-size: 32% 51%, 32% 51%, 32% 51%;
+        }
+
+        50% {
+             background: url(https://www.howtogeek.com/wp-content/uploads/2017/08/cc_7.png) left no-repeat, url(https://www.amenagementpaysager.ca/medias/entreprises/18/herve-buisson-paysagiste-montreal-1513028096.jpg) center no-repeat, url(https://images.squarespace-cdn.com/content/v1/5aab211a506fbea8891a03ff/1522691427137-JJ29RT63T74TTY1WIG0R/ke17ZwdGBToddI8pDm48kFETTUps6waZrWrSwNVwYIxZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIuAl1yHK8sbewbHRm89sZbLkaR8cg1JZI6RLQEtB6qw0KMshLAGzx4R3EDFOm1kBS/lavage_vitres.jpg) right no-repeat;
+            background-size: 34% 53%, 34% 53%, 34% 53%;
+        }
+
+        100% {
+             background: url(https://www.howtogeek.com/wp-content/uploads/2017/08/cc_7.png) left no-repeat, url(https://www.amenagementpaysager.ca/medias/entreprises/18/herve-buisson-paysagiste-montreal-1513028096.jpg) center no-repeat, url(https://images.squarespace-cdn.com/content/v1/5aab211a506fbea8891a03ff/1522691427137-JJ29RT63T74TTY1WIG0R/ke17ZwdGBToddI8pDm48kFETTUps6waZrWrSwNVwYIxZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIuAl1yHK8sbewbHRm89sZbLkaR8cg1JZI6RLQEtB6qw0KMshLAGzx4R3EDFOm1kBS/lavage_vitres.jpg) right no-repeat;
+            background-size: 32% 51%, 32% 51%, 32% 51%;
+        }
+    }
+
+    @-webkit-keyframes icon-grow {
+        0% {
+             background: url(https://www.howtogeek.com/wp-content/uploads/2017/08/cc_7.png) left no-repeat, url(https://www.amenagementpaysager.ca/medias/entreprises/18/herve-buisson-paysagiste-montreal-1513028096.jpg) center no-repeat, url(https://images.squarespace-cdn.com/content/v1/5aab211a506fbea8891a03ff/1522691427137-JJ29RT63T74TTY1WIG0R/ke17ZwdGBToddI8pDm48kFETTUps6waZrWrSwNVwYIxZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIuAl1yHK8sbewbHRm89sZbLkaR8cg1JZI6RLQEtB6qw0KMshLAGzx4R3EDFOm1kBS/lavage_vitres.jpg) right no-repeat;
+            background-size: 32% 51%, 32% 51%, 32% 51%;
+        }
+
+        50% {
+             background: url(https://www.howtogeek.com/wp-content/uploads/2017/08/cc_7.png) left no-repeat, url(https://www.amenagementpaysager.ca/medias/entreprises/18/herve-buisson-paysagiste-montreal-1513028096.jpg) center no-repeat, url(https://images.squarespace-cdn.com/content/v1/5aab211a506fbea8891a03ff/1522691427137-JJ29RT63T74TTY1WIG0R/ke17ZwdGBToddI8pDm48kFETTUps6waZrWrSwNVwYIxZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIuAl1yHK8sbewbHRm89sZbLkaR8cg1JZI6RLQEtB6qw0KMshLAGzx4R3EDFOm1kBS/lavage_vitres.jpg) right no-repeat;
+            background-size: 34% 53%, 34% 53%, 34% 53%;
+        }
+
+        100% {
+             background: url(https://www.howtogeek.com/wp-content/uploads/2017/08/cc_7.png) left no-repeat, url(https://www.amenagementpaysager.ca/medias/entreprises/18/herve-buisson-paysagiste-montreal-1513028096.jpg) center no-repeat, url(https://images.squarespace-cdn.com/content/v1/5aab211a506fbea8891a03ff/1522691427137-JJ29RT63T74TTY1WIG0R/ke17ZwdGBToddI8pDm48kFETTUps6waZrWrSwNVwYIxZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIuAl1yHK8sbewbHRm89sZbLkaR8cg1JZI6RLQEtB6qw0KMshLAGzx4R3EDFOm1kBS/lavage_vitres.jpg) right no-repeat;
+            background-size: 32% 51%, 32% 51%, 32% 51%;
+        }
+    }
+
+    @keyframes logo-rotate {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    @-webkit-keyframes logo-rotate {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes shake {
+        10%, 90% {
+            transform: translate3d(-1px, 0, 0);
+        }
+
+        20%, 80% {
+            transform: translate3d(2px, 0, 0);
+        }
+
+        30%, 50%, 70% {
+            transform: translate3d(-4px, 0, 0);
+        }
+
+        40%, 60% {
+            transform: translate3d(4px, 0, 0);
+        }
+    }
+
+    @-webkit-keyframes shake {
+        10%, 90% {
+            transform: translate3d(-1px, 0, 0);
+        }
+
+        20%, 80% {
+            transform: translate3d(2px, 0, 0);
+        }
+
+        30%, 50%, 70% {
+            transform: translate3d(-4px, 0, 0);
+        }
+
+        40%, 60% {
+            transform: translate3d(4px, 0, 0);
+        }
+    }
