@@ -12,6 +12,3 @@
 
 ## Author / Auteur:
 - Charles De Lafontaine
-
-© DE LAFONTAINE, Charles. (2022-2018)
-Reproduction interdite.
